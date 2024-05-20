@@ -1,0 +1,37 @@
+.header {
+    width: 500px;
+    background-color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+body {
+  background-color: lightgray;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.top div:first-of-type {
+  font-weight: bold;
+}
+
+.bottom {
+  padding: 10px;
+}
